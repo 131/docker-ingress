@@ -1,5 +1,5 @@
 FROM haproxy:2.6.0-alpine
-
+USER root
 RUN apk add --no-cache  keepalived  nano curl socat
 
 ENTRYPOINT /bin/false
