@@ -6,4 +6,4 @@ RUN curl -L https://github.com/ginuerzh/gost/releases/download/v2.11.5/gost-linu
     && chmod a+x /usr/bin/gost
 
 ENTRYPOINT /bin/false
-LABEL "org.opencontainers.image.version"="0.9.4"
+LABEL "org.opencontainers.image.version"="0.9.5"
