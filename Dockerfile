@@ -1,4 +1,4 @@
-FROM haproxy-debian:2.6.10-alpine
+FROM haproxy:2.6.0-alpine
 
 RUN apk add --no-cache  keepalived  nano curl socat
 
