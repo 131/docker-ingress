@@ -6,4 +6,4 @@ RUN curl -L https://github.com/ginuerzh/gost/releases/download/v2.11.5/gost-linu
 RUN apk add --no-cache  keepalived  nano curl socat
 
 ENTRYPOINT /bin/false
-LABEL "org.opencontainers.image.version"="0.9.3"
+LABEL "org.opencontainers.image.version"="0.9.4"
