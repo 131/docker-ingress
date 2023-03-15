@@ -9,4 +9,4 @@ RUN cd /tmp \
   && cd - 
 
 ENTRYPOINT /bin/false
-LABEL "org.opencontainers.image.version"="0.9.6"
+LABEL "org.opencontainers.image.version"="1.0.0"
